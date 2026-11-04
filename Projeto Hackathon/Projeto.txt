@@ -1,0 +1,17 @@
+Layout:
+
+DISCIPLINA:
+
+- Nome
+
+- Cód. Disciplina
+
+- Notas
+
+- Freq.
+
+- Professor
+
+- Dias/Semana
+
+Objetivo: Ler os dados fornecidos nos espaços preenchidos, Receber e mostrar a lista de disciplinas com todas as características;

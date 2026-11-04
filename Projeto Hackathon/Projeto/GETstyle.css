@@ -1,0 +1,30 @@
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+body{
+background-color: white;
+
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+p {
+    color:black;
+    font-size: 22px;
+}
