@@ -1,16 +1,28 @@
-h1{
-    color:rgb(0, 0, 0);
+h1 {
+    color: rgb(252, 252, 252);
     font-size: 70px;
     text-align: center;
     padding: 10px;
 }
 
-form {
-    text-align: center;
+.header {
+    background-color: rgb(0, 132, 255);
 }
 
-body{
-background-color: white;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.form1 {
+    position: fixed;
+    left: 450px;
+}
+
+body {
+    background-color: white;
 
 }
 
@@ -24,7 +36,21 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
 }
+
 p {
-    color:black;
+    color: black;
     font-size: 22px;
+}
+
+.botao-retornar {
+    cursor: pointer;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.seta-retorno {
+    width: 100px;
+    height: 100px;
 }

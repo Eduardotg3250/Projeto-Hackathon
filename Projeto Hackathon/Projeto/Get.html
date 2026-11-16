@@ -10,34 +10,48 @@
 </head>
 
 <body>
-  <h1>Bem vindo à Estácio Disciplinas!</h1>
+  <div class="header">
+    <h1>Bem vindo à Estácio Disciplinas!</h1>
+  </div>
 
   <h2>Preencha os campos:</h2>
 
-  <h2><form id="formulario">
-    <div><label for="codigo">Código:</label>
-    <input type="int" id="dcodigo" name="codigo"><br><br></div>
+  <h2>
+    <form id="formulario">
+      <div><label for="codigo" class="form1">Código:</label>
+        <input type="int" id="dcodigo" name="codigo"><br><br>
+      </div>
 
-    <div><label for="nome">Nome:</label>
-      <input type="text" id="dnome" name="nome"><br><br></div>
+      <div><label for="nome" class="form1">Nome:</label>
+        <input type="text" id="dnome" name="nome"><br><br>
+      </div>
 
-    <div><label for="notas">Nota:</label>
-    <input type="float" id="dnotas" name="notas"><br><br></div>
+      <div><label for="notas" class="form1">Nota:</label>
+        <input type="float" id="dnotas" name="notas"><br><br>
+      </div>
 
-    <div><label for="freq">Frequência:</label>
-      <input type="int" id="dfreq" name="freq"><br><br></div>
+      <div><label for="freq" class="form1">Frequência:</label>
+        <input type="int" id="dfreq" name="freq"><br><br>
+      </div>
 
-    <div><label for="professor">professor:</label>
-      <input type="text" id="dprofessor" name="professor"><br><br></div>
+      <div><label for="professor" class="form1">professor:</label>
+        <input type="text" id="dprofessor" name="professor"><br><br>
+      </div>
 
-    <div><label for="diasdasemana">dias/semana:</label>
-      <input type="int" id="Ddiasdasemana" name="diasdasemana"><br><br></div>
+      <div><label for="diasdasemana" class="form1">dias/semana:</label>
+        <input type="int" id="Ddiasdasemana" name="diasdasemana"><br><br>
+      </div>
 
-    <div><button>Enviar</div>
-  </form</h2>
+      <div><button>Enviar</div>
+    </form>
 
-  <div id="div_disc_cadastros">
-  </div>
+    <button type="retornar" onclick="window.location.href='Index.html'" class="botao-retornar"><img
+        src="imagem/Retornar.png" class="seta-retorno"></button>
+
+    <hr>
+
+    <div id="div_disc_cadastros">
+    </div>
 </body>
 
 </html>
